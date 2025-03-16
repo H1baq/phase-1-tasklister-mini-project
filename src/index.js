@@ -29,9 +29,9 @@ li.appendChild(editButton);
       completeCheckbox.type = 'checkbox';
       completeCheckbox.addEventListener('change', function () {
         if (completeCheckbox.checked) {
-          li.style.textDecoration = 'line-through';  // Strike-through the task text when checked
+          li.style.textDecoration = 'line-through';  
         } else {
-          li.style.textDecoration = 'none';  // Remove the strike-through when unchecked
+          li.style.textDecoration = 'none';  
         }
       });
       li.insertBefore(completeCheckbox, li.firstChild);  
